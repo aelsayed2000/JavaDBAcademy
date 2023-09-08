@@ -7,6 +7,8 @@ public class App {
         double IntRate = 1.5;
 
         double Calculation = LoanAmount * (1 + (IntRate / 100) * NumYears);
-        String AmountOwed = String.valueOf(Calculation);
+        String AmountOwed = "You owe: " + Calculation;
+
+
     }
 }

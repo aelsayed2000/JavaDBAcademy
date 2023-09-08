@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Primitive types / Class Types">
+    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Operators and Expressions (Calculator for Loans)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dbresults/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dbresults/app/App.java" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Cherry-picking in master",
+    "git-widget-placeholder": "master",
     "onboarding.tips.debug.path": "C:/Users/aelsayed/IdeaProjects/JavaAcademyCourses/src/Main.java"
   }
 }]]></component>
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694136969394</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Primitive types / Class Types">
+      <option name="closed" value="true" />
+      <created>1694138289116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694138289116</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +187,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World :)" />
     <MESSAGE value="Integers" />
-    <MESSAGE value="Primitive types / Class Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primitive types / Class Types" />
+    <MESSAGE value="Operators and Expressions (Calculator for Loans)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operators and Expressions (Calculator for Loans)" />
   </component>
 </project>
