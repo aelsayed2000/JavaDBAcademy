@@ -2,15 +2,11 @@ package com.dbresults.app;
 
 public class App {
     public static void main(String[] args) {
-        // primitive types
-        int age = 22;
-        age = 23;
-        double temp = 8.0;
-        boolean isCold = true;
+        int LoanAmount = 1000;
+        int NumYears = 5;
+        double IntRate = 1.5;
 
-        // class types
-        String.name = "Ahmad";
-        Person me = new Person();
-
+        double Calculation = LoanAmount * (1 + (IntRate / 100) * NumYears);
+        String AmountOwed = String.valueOf(Calculation);
     }
 }
