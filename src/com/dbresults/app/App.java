@@ -12,25 +12,17 @@ public class App {
         int yearsRemaining = numYears;
 
         while (yearsRemaining > 0) {
-            loanAmount += (loanAmount * intRate / 100);
+            double interest = loanAmount * (intRate / 100);
+            loanAmount += interest;
             yearsRemaining--;
         }
 
-        if (loanAmount > 0 && numYears > 0 && intRate > 0) {
-            PrintAmounts(loanAmount, numYears, intRate);
-
+        try {
             LoanCalc calculator = new LoanCalc(loanAmount, numYears, intRate);
             double totalLoan = calculator.calculateLoan();
             System.out.println("Total Loan Amount: " + totalLoan);
-        } else {
-            System.out.println("Cannot Compute.");
+        } catch (ExceptionCalc e) {
+            System.out.println(e.getMessage());
         }
-    }
-
-    private static void PrintAmounts(int loanAmount, int numYears, double intRate) {
-        System.out.println("Calculating loan using:");
-        System.out.println("Loan Amount:  " + loanAmount);
-        System.out.println("Number of Years: " + numYears);
-        System.out.println("Interest Rate: " + intRate);
     }
 }

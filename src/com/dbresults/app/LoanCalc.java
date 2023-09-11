@@ -5,7 +5,10 @@ public class LoanCalc {
     private int numYears;
     private double intRate;
 
-    public LoanCalc(int loanAmount, int numYears, double intRate) {
+    public LoanCalc(int loanAmount, int numYears, double intRate) throws ExceptionCalc {
+        if (loanAmount <= 0 || numYears <= 0 || intRate <= 0) {
+            throw new ExceptionCalc("Inputs are not valid. ");
+        }
         this.loanAmount = loanAmount;
         this.numYears = numYears;
         this.intRate = intRate;
