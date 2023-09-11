@@ -11,7 +11,7 @@ public class LoanCalc {
         this.intRate = intRate;
     }
 
-    public double CalculateLoan() {
+    public double calculateLoan() {
         double intRate = 1 + this.intRate / 100;
         return loanAmount * Math.pow(intRate, numYears);
     }
