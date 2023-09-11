@@ -6,7 +6,7 @@ public class App {
         System.out.println("Loan Calculator".toUpperCase());
         System.out.println();
 
-        int loanAmount = 5000; // Changed the initial loan amount to 5000
+        int loanAmount = 5000;
         int numYears = 5;
         double intRate = 1.5;
         int yearsRemaining = numYears;
