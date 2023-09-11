@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Methods / Classes">
-      <change afterPath="$PROJECT_DIR$/src/com/dbresults/app/ExceptionCalc.java" afterDir="false" />
+    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Exceptions and try/catch blocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dbresults/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dbresults/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dbresults/app/LoanCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dbresults/app/LoanCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694395291892</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Exceptions and try/catch blocks">
+      <option name="closed" value="true" />
+      <created>1694397199005</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694397199005</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +256,7 @@
     <MESSAGE value="Conditionals" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Methods / Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methods / Classes" />
+    <MESSAGE value="Exceptions and try/catch blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions and try/catch blocks" />
   </component>
 </project>
