@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Transforming Strings">
+    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Conditionals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dbresults/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dbresults/app/App.java" afterDir="false" />
     </list>
@@ -159,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694147648183</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Conditionals">
+      <option name="closed" value="true" />
+      <created>1694148971249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694148971249</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +214,7 @@
     <MESSAGE value="Operators and Expressions (Calculator for Loans)" />
     <MESSAGE value="Calculator Operations / Strings" />
     <MESSAGE value="Transforming Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transforming Strings" />
+    <MESSAGE value="Conditionals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditionals" />
   </component>
 </project>
