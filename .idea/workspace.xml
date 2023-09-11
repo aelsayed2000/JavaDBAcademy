@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Conditionals">
+    <list default="true" id="c3eb48f5-4b37-4c52-bb72-1cd28ca92a1b" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/src/com/dbresults/app/LoanCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dbresults/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dbresults/app/App.java" afterDir="false" />
     </list>
@@ -167,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694148971249</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1694390492560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694390492560</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +224,7 @@
     <MESSAGE value="Calculator Operations / Strings" />
     <MESSAGE value="Transforming Strings" />
     <MESSAGE value="Conditionals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conditionals" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>

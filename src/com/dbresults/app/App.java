@@ -16,20 +16,16 @@ public class App {
             yearsRemaining--;
         }
 
+
         if (loanAmount > 0 && numYears > 0 && intRate > 0) {
             PrintAmounts(loanAmount, numYears, intRate);
 
-            CalculateLoan(loanAmount, intRate, numYears);
+            LoanCalc calculator = new LoanCalc(loanAmount, numYears, intRate);
+            double repaymentAmt = calculator.CalculateLoan();
         } else {
             System.out.println("Cannot Compute.");
         }
     }
-
-    private static void CalculateLoan(int loanAmount, double intRate, int numYears) {
-        double calculation = loanAmount * (1 + (intRate / 100) * numYears);
-        System.out.println("You owe: " + calculation);
-    }
-
     private static void PrintAmounts(int loanAmount, int numYears, double intRate) {
         System.out.println("Calculating loan using:");
         System.out.println("Loan Amount:  " + loanAmount);
